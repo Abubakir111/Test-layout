@@ -1,0 +1,679 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.heder {
+  width: 1216px;
+  height: 136px;
+  float: none;
+  font-family: none;
+  background: #fff;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(2, 1fr);
+  grid-row-gap: 26px;
+}
+.heder .content1 {
+  padding-top: 35px;
+}
+.heder .content1 .block1 {
+  width: 88px;
+  height: 34px;
+  float: left;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: relative;
+  z-index: 1;
+}
+.heder .content1 .block1 span {
+  color: #222222;
+  font-size: 1.5em;
+}
+.heder .content1 .block1 .accent {
+  top: -3px;
+  left: 28px;
+  font-size: 1.1em;
+  color: black;
+  position: absolute;
+}
+.heder .content1 .block1 .mobil_img {
+  display: none;
+}
+.heder .content1 .block2 {
+  width: 32px;
+  height: 32px;
+  float: left;
+  font-family: none;
+  border-radius: 50%;
+  border: 1px solid silver;
+  margin-left: 16px;
+  position: relative;
+}
+.heder .content1 .block2 span {
+  display: none;
+}
+.heder .content1 .block2 .accent {
+  display: none;
+}
+.heder .content1 .block2 img {
+  width: 17px;
+  height: 18px;
+  float: none;
+  font-family: none;
+  margin: 5px 5px;
+}
+.heder .content1 .block2 .Contentb2img:hover {
+  border-radius: 50%;
+  background: #F1F1F1;
+}
+.heder .content1 .closee {
+  display: none;
+}
+@-webkit-keyframes modal {
+  0% {
+    top: 20px;
+  }
+  100% {
+    top: 48px;
+  }
+}
+@keyframes modal {
+  0% {
+    top: 20px;
+  }
+  100% {
+    top: 48px;
+  }
+}
+.heder .content1 .modalContent {
+  width: 384px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  float: none;
+  font-family: none;
+  top: 48px;
+  left: 0px;
+  background: #fbfbfb;
+  border-radius: 10px;
+  box-shadow: 0px 0px 38px 5px #d6cdcd;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 72px auto auto auto;
+  position: absolute;
+  -webkit-animation: modal;
+          animation: modal;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+}
+.heder .content1 .modalContent .searchContent {
+  width: 352px;
+  height: 48px;
+  float: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 24px auto 0px auto;
+  border: 2px solid #ABC8EA;
+  border-radius: 100px;
+  display: grid;
+  grid-template-columns: 303px 31px;
+  grid-template-areas: 100%;
+}
+.heder .content1 .modalContent .searchContent .search {
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 25px;
+  color: #141414;
+  outline: none;
+  border: none;
+  background: none;
+}
+.heder .content1 .modalContent .searchContent .searchImgBlock {
+  width: 14px;
+  height: 14px;
+  float: none;
+  font-family: none;
+  margin: auto;
+  display: block;
+}
+.heder .content1 .modalContent .searchImgNone {
+  display: none;
+}
+.heder .content1 .modalContent .hiden {
+  display: none;
+}
+.heder .content1 .modalContent mark {
+  background: rgba(38, 38, 39, 0.089);
+}
+.heder .content1 .modalContent .SaveTheCity {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  float: none;
+  font-family: none;
+  border-bottom: none;
+}
+.heder .content1 .modalContent .SaveTheCity .selectedCity {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  float: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border: 1px solid silver;
+  border-radius: 100px;
+  margin: 15px 10px 15px 10px;
+  padding: 5px;
+  background: rgb(17, 0, 255);
+  text-align: center;
+  display: inline-block;
+}
+.heder .content1 .modalContent .SaveTheCity .selectedCity .baijikcontent {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  float: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: grid;
+  grid-template-columns: 90% 10%;
+  grid-template-rows: 100%;
+  border-radius: 100px;
+}
+.heder .content1 .modalContent .SaveTheCity .selectedCity .baijikcontent .textVector {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+.heder .content1 .modalContent .SaveTheCity .selectedCity .baijikcontent .closeContent {
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+}
+.heder .content1 .modalContent .SaveTheCity .selectedCity .baijikcontent .closeContent .close {
+  width: 14px;
+  height: 14px;
+  float: none;
+  font-family: none;
+}
+.heder .content1 .modalContent .SaveTheCity1 {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  float: none;
+  font-family: none;
+  border-bottom: 1px solid silver;
+}
+.heder .content1 .modalContent .sity {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  float: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  max-height: 224px;
+  margin-top: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: relative;
+}
+.heder .content1 .modalContent .sity .preolider {
+  width: 50px;
+  height: 50px;
+  border: 5px solid rgba(0, 0, 255, 0.438);
+  border-radius: 50%;
+  border-left-color: #0656B4;
+  margin: auto;
+  -webkit-animation: preolaider 2s linear infinite;
+          animation: preolaider 2s linear infinite;
+}
+@-webkit-keyframes preolaider {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes preolaider {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.heder .content1 .modalContent .sity .textContent {
+  width: 100%;
+  height: 50px;
+  float: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  cursor: pointer;
+}
+.heder .content1 .modalContent .sity .textContent .area {
+  width: 95%;
+  height: 35px;
+  float: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: block;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+.heder .content1 .modalContent .sity .textContent .citi {
+  color: #A7A7A7;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  pointer-events: none;
+  margin-left: 20px;
+}
+.heder .content1 .modalContent .sity .textContent:hover {
+  background: #F1F1F1;
+}
+.heder .content1 .modalContent ::-webkit-scrollbar {
+  width: 5px;
+}
+.heder .content1 .modalContent ::-webkit-scrollbar-track {
+  background: #eee5e5;
+}
+.heder .content1 .modalContent ::-webkit-scrollbar-thumb {
+  background: rgb(163, 158, 158);
+  border-radius: 100px;
+}
+.heder .content1 .modalContent .modalbtn {
+  width: 100%;
+  height: 48px;
+  float: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  background: #0656B4;
+  display: flex;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 0px 0px 10px 10px;
+}
+.heder .content1 .modalContent .modalbtn:hover {
+  opacity: 0.8;
+}
+.heder .content1 .block3 {
+  width: 112px;
+  height: 32px;
+  float: left;
+  font-family: npne;
+  display: flex;
+  margin-left: 5px;
+  padding-right: 10px;
+  align-items: center;
+}
+.heder .content1 .block3 span {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.heder .content1 .block3 .imgvector {
+  display: none;
+}
+.heder .content1 .block3 .span {
+  display: none;
+}
+.heder .content1 .block4 {
+  width: 592px;
+  height: 48px;
+  float: left;
+  font-family: none;
+  border-radius: 15px;
+  background: #F1F1F1;
+  margin-top: -7px;
+  margin-right: 165px;
+  display: grid;
+  grid-template-columns: 40px 100%;
+  grid-template-rows: 100%;
+  align-items: center;
+}
+.heder .content1 .block4 .imgUnion {
+  width: 32px;
+  height: 32px;
+  float: none;
+  font-family: none;
+  margin-left: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heder .content1 .block4 .imgUnion img {
+  width: 17px;
+  height: 17px;
+  float: none;
+  font-family: none;
+}
+.heder .content1 .block4 input {
+  width: 100%;
+  height: 100%;
+  float: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  text-align: start;
+  padding-left: 40px;
+  align-items: center;
+  font-size: 14px;
+  color: #767676;
+  border: none;
+  background: none;
+  outline: none;
+}
+.heder .content1 .block5 {
+  width: 43px;
+  height: 32px;
+  float: left;
+  font-family: none;
+  display: grid;
+  grid-template-columns: 20px 23px;
+  grid-template-rows: 100%;
+  align-items: center;
+  margin-right: 30px;
+}
+.heder .content1 .block5 .imgvector {
+  width: 100%;
+  height: 100%;
+  float: none;
+  font-family: none;
+}
+.heder .content1 .block5 img {
+  width: 15px;
+  height: 13px;
+  float: none;
+  font-family: none;
+  margin: 9px auto;
+}
+.heder .content1 .block5 span {
+  margin-left: 5px;
+}
+.heder .content1 .block6 {
+  width: 120px;
+  height: 32px;
+  float: left;
+  font-family: none;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 100%;
+  text-align: center;
+  align-items: center;
+}
+.heder .content1 span {
+  font-family: open Sans;
+  font-weight: 400;
+  font-size: 14px;
+}
+.heder .content1 img {
+  width: 32px;
+  height: 32px;
+  float: none;
+  font-family: none;
+  margin-left: 16px;
+}
+.heder .content2 {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.heder .content2 .scrolbar {
+  width: 120%;
+  height: 100%;
+  float: none;
+  font-family: none;
+  display: flex;
+  align-items: center;
+}
+.heder .content2 .scrolbar .vector_next {
+  top: 12px;
+  right: -5px;
+  box-shadow: -14px 0px 9px 13px #ffffff;
+  position: absolute;
+  background: #fff;
+  width: 24px;
+}
+.heder .content2 .scrolbar .texcontent {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  float: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border-radius: 12px;
+  padding: 2px 10px;
+  margin-right: 40px;
+  font-size: 14px;
+  color: #222222;
+}
+.heder .content2 .scrolbar .texcontent:hover {
+  background: #F1F1F1;
+}
+
+.mainContent {
+  display: none;
+}
+
+@media screen and (min-width: 340px) and (max-width: 365px) {
+  body {
+    width: 100%;
+    height: 100vh;
+  }
+  @font-face {
+    font-family: "FormularMedium";
+    font-style: Medium;
+    font-weight: 500;
+    font-display: swap;
+    src: url("./font-famili/Formular-Medium.woff") url("./font-famili/Formular-Medium.woff2");
+  }
+  .heder {
+    width: 360px;
+    height: 64px;
+    float: none;
+    font-family: none;
+    margin: inherit;
+    grid-template-columns: 32px, 88px, 160px;
+    grid-template-rows: 100%;
+    grid-row-gap: inherit;
+    display: grid;
+  }
+  .heder .content1 {
+    padding-top: inherit;
+    width: 100%;
+    height: 100%;
+    float: none;
+    font-family: none;
+  }
+  .heder .content1 .block1 {
+    width: 32px;
+    height: 32px;
+    float: none;
+    font-family: none;
+    position: inherit;
+    z-index: inherit;
+    margin-right: 96px;
+    float: left;
+    display: block;
+  }
+  .heder .content1 .block1 span {
+    display: none;
+  }
+  .heder .content1 .block1 .accent {
+    display: none;
+  }
+  .heder .content1 .block1 .mobil_img {
+    display: block;
+  }
+  .heder .content1 .block1 .mobil_img img {
+    margin: 16px 0px 16px 8px;
+    display: block;
+  }
+  .heder .content1 .block2 {
+    width: 88px;
+    height: 24px;
+    float: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    border-radius: inherit;
+    border: inherit;
+    margin: 18px 93px 0px 0px;
+    position: relative;
+    float: left;
+  }
+  .heder .content1 .block2 span {
+    color: #222222;
+    font-size: 1.5em;
+    display: block;
+  }
+  .heder .content1 .block2 .accent {
+    top: -3px;
+    left: 28px;
+    font-size: 1.1em;
+    color: black;
+    position: absolute;
+    display: block;
+  }
+  .heder .content1 .block2 img {
+    display: none;
+  }
+  .heder .content1 .closee {
+    display: none;
+  }
+  .heder .content1 .modalContent {
+    display: none;
+  }
+  .heder .content1 .block3 {
+    width: 43px;
+    height: 32px;
+    float: left;
+    font-family: none;
+    font-weight: inherit;
+    font-size: inherit;
+    align-items: inherit;
+    margin: 18px 0px 0px 0px;
+    padding-right: inherit;
+    display: grid;
+    grid-template-columns: 16px 10px;
+    grid-template-rows: 100%;
+  }
+  .heder .content1 .block3 span {
+    display: none;
+  }
+  .heder .content1 .block3 .imgvector {
+    width: 16px;
+    height: 13px;
+    display: block;
+    margin: 8px 0px 0px 0px;
+  }
+  .heder .content1 .block3 .imgvector img {
+    width: 16px;
+    height: 13px;
+    display: block;
+    margin: 0px;
+  }
+  .heder .content1 .block3 .span {
+    display: block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 5px 0px 0px 10px;
+  }
+  .heder .content1 .block4 {
+    display: none;
+  }
+  .heder .content1 .block5 {
+    display: none;
+  }
+  .heder .content1 .block6 {
+    display: none;
+  }
+  .heder .content1 span {
+    display: none;
+  }
+  .heder .content1 img {
+    display: none;
+  }
+  .heder .content2 {
+    display: none;
+  }
+  .mainContent {
+    width: 360px;
+    height: 576px;
+    float: none;
+    font-family: none;
+    grid-template-columns: 100%;
+    grid-template-rows: 40px 122px 246px;
+    display: grid;
+  }
+  .mainContent .mainBlock1 {
+    width: 100%;
+    height: 100%;
+    float: none;
+    font-family: none;
+    background: #f1f1f1;
+    display: block;
+  }
+  .mainContent .mainBlock1 .maimImgbutton {
+    float: left;
+  }
+  .mainContent .mainBlock1 .maimImgbutton img {
+    width: 6px;
+    height: 12px;
+    float: none;
+    font-family: none;
+    margin: 14px 13px 0px 37px;
+  }
+  .mainContent .mainBlock1 .text {
+    font-family: "FormularMedium", sans-serif;
+    font-size: 12px;
+    float: left;
+    color: #222222;
+    margin-top: 14px;
+  }
+  .mainContent .mainBlock2 {
+    display: block;
+  }
+  .mainContent .mainBlock3 {
+    display: block;
+  }
+  .mainContent .mainBlock3 .texConten {
+    width: 328px;
+    height: 66px;
+    font-family: "FormularMedium", sans-serif;
+    font-size: 18px;
+    color: #222222;
+    margin: 16px auto 16px auto;
+  }
+  .mainContent .mainBlock3 .texinfo {
+    width: 328px;
+    height: 68px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #767676;
+    margin: 0px auto 16px auto;
+  }
+  .mainContent .mainBlock3 button {
+    width: 328px;
+    height: 48px;
+    margin-left: 16px;
+    background: #DFE9F5;
+    color: #0656B4;
+    font-family: "FormularMedium", sans-serif;
+    font-size: 12px;
+    border: none;
+  }
+  .mainContent .mainBlock4 {
+    background: silver;
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */
